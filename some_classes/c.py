@@ -29,9 +29,13 @@ class Shape(AbstractShape):
         else:
             self.__shape_name = 'default' # we could raise an exception
 
+# the following line ensures we only run this code if this is the main module
 if __name__ == '__main__':
     # we can create instances of our concrete class
     sq = Shape('square')
     print(sq.shape_name) # access the GETTER method as if it was just a property
     print(sq) # access the __str__ method
     tr = Shape('triangle')
+
+    # how does import affect things?
+    print(f'The name of the imported module is {AbstractShape.__name__}')

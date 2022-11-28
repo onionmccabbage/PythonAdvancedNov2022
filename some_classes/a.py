@@ -13,6 +13,6 @@ class AbstractShape(): # this is going to be our abstract base class
     def shape_name(self, new_name):
         pass # no concrete implementation - this is abstraction
 
-
 if __name__ == '__main__':
-    pass
+    # when you run a module, Python ALWAYS assigns the name __main__ to that module
+    print(f'This module is given the name {__name__} by Python')
