@@ -22,7 +22,10 @@ def my_server():
         # decide what to do about this request - in this case send back ALL_CAPS
         resp = buf.upper()
         client.send(resp)
-        break
+        # if we receive 'quit' then stop the server
+        if buf == b'quit':
+            server.close() # tidy up
+            break
 
 if __name__ == '__main__':
     my_server() # invoke our server
