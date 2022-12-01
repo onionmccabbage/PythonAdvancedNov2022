@@ -1,0 +1,5 @@
+Output is now sent to the log via the file acess object. Default stream is now <_io.TextIOWrapper name='my_log.txt' mode='a' encoding='cp1252'>
+Output is now sent to the log via the file acess object. Default stream is now <_io.TextIOWrapper name='my_log.txt' mode='a' encoding='cp1252'>
+Here are several lines that will be sent to the log
+Each line is redirected by our context manager
+this text also gets yielded to the file access object

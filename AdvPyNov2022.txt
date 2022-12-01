@@ -63,17 +63,15 @@ Wednesday
 > after lunch lab exercise
 > pytest see https://docs.pytest.org/
 
-we are on lunch break until 1:30
-
 Thursday
 > profiling: timings etc. (cprofile)
-- multithreading, also limits of mutlithreading concurrency
-- the global Interpreter Lock (GIL) will affect threading performance
-- q how can we join many threads...
+> multithreading, also limits of mutlithreading concurrency
+> the global Interpreter Lock (GIL) will affect threading performance
+> q how can we join many threads: iterate oever a lsit/tuple of threads
 - Python has -u to unbuffer the output
 - Python has -O to optimize code (especially usefull for threading)
-- after lunch lab exercise
-- logging - context mgr
+> after lunch lab exercise
+> logging - context mgr, often we log by time-stamp
 - iterators __iter__
 > named tuple
 > zip

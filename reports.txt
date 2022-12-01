@@ -1,0 +1,6 @@
+Description: scattered clouds Temperature: 12°C in Phoenix
+The wind speed is 3.13 coming from 69° 
+Description: overcast clouds Temperature: 10°C in Athlone
+The wind speed is 4.68 coming from 157° 
+Description: overcast clouds Temperature: 11°C in Galway
+The wind speed is 5.26 coming from 174° 
