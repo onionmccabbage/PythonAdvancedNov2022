@@ -13,7 +13,7 @@ class Menu: # I chose not to descend from the Thread class, but I can still call
 
     categories = ('people', 'planets', 'species', 'vehicles')
 
-    @profile
+    @profile()
     def __init__(self):
         self.menu_choices = {
             "1":self.getPeople,

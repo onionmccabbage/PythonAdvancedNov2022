@@ -3,7 +3,9 @@ import time
 import timeit
 import random
 import sys
+from memory_profiler import profile
 
+@profile(precision=4)
 def main(): # we will explore acquire and release of locks
     lock = Lock() # we now have a lock we can use
     lock.acquire() # we have exclusive access to this lock
