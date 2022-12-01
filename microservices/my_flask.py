@@ -4,6 +4,7 @@
 # we may need to pip install Flask (it is not part of the default Python install)
 from flask import Flask
 from flask import render_template # lets us use html web pages
+import requests
 
 # in this case we will
 # - explore flask architecture
@@ -22,6 +23,10 @@ def home():
     content = '''
     <h2>Flask Home Content</h2>
     '''
+    # we could make a request to some other API
+    # r = requests.get('some.com/data')
+    # then when we get the data fro mthat API
+    #send it back to our client
     return content
 
 @app.route('/about')
