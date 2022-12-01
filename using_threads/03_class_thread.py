@@ -18,7 +18,7 @@ class MyThread(Thread):
 def main():
     m1 = MyThread('m1')
     m2 = MyThread('m2')
-    m1.start()
+    m1.start() # this invokes the 'run' method
     m2.start()
     m1.join()
     m2.join()
